@@ -1,11 +1,19 @@
-<html>
-    <head>
-        <title>My</title>
-    </head>
-    <body>
-        <form action='{{ url_for('another_index') }}' method="post">
-            <input type = "text" name = "question">
-            <input type = "submit">
-        </form> 
-    </body>
-</html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hassle Medi Bot</title>
+  </head>
+  <body>
+    <form action="/maths" method="post">
+      <input
+        placeholder="Enter data: "
+        title="Enter the data"
+        type="text"
+        name="question"
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
